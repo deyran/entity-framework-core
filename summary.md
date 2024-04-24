@@ -8,6 +8,13 @@
 dotnet new console --framework net8.0 --use-program-main
 ```
 
+* Understanding the .Net CLI (Command Line Interface) above
+
+    1. **dotnet**: This command-line is used to execute various commands for developing, building, and managing .Net applications.
+    2. **new console**: Is used to create a new console application.
+    3. **--framework net8.0**: This option is targeting the framework for the new project. In this case .Net 8.0 framework
+    
+
 2. Install the following package:
 
 ```
