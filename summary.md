@@ -22,7 +22,9 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 ```
 
-**EF Core**: is an Object-Relational Mapping (ORM) framework for .Net. This framework  is used to work with database using .Net Objects.
+* **EF Core**: is an Object-Relational Mapping (ORM) framework for .Net. This framework  is used to work with database using .Net Objects.
+* **Microsoft.EntityFrameworkCore.SqlServer**: This package was designed for SQL Server databases. It contains the components for EF Core interact with SQL Server, including database connection management, SQL generation, adn query translation
+
 
 # Get started with Entity Framework Core
 
