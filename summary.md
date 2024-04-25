@@ -24,6 +24,11 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
 
 * **EF Core**: is an Object-Relational Mapping (ORM) framework for .Net. This framework  is used to work with database using .Net Objects.
 * **Microsoft.EntityFrameworkCore.SqlServer**: This package was designed for SQL Server databases. It contains the components for EF Core interact with SQL Server, including database connection management, SQL generation, adn query translation
+* **Microsoft.EntityFrameworkCore.Design**: Contains design-time components that are used for scaffolding database models and generating code migratons. **Scaffolding** means generating code or structure automatically based on existing data or templates. Summing up this issue, this package has the following purposes:
+
+1. Database Migration
+2. Scaffolding
+3. DbContext Generation
 
 
 # Get started with Entity Framework Core
