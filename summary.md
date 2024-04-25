@@ -30,7 +30,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
 2. Scaffolding
 3. DbContext Generation
 
-* **Microsoft.EntityFrameworkCore.Tools**: This package provides commands-line tools for performing database-related tasks during development, such as generating and applying migrations, updating the database schema, and work DbContext
+* **Microsoft.EntityFrameworkCore.Tools**: This package provides commands-line tools for performing database-related tasks during development, such as generating and applying migrations, updating the database schema, and working with DbContext.
 
 
 # Get started with Entity Framework Core
