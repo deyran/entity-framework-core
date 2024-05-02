@@ -33,6 +33,68 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
 * **Microsoft.EntityFrameworkCore.Tools**: This package provides commands-line tools for performing database-related tasks during development, such as generating and applying migrations, updating the database schema, and working with DbContext.
 
 
-# Get started with Entity Framework Core
+## Creating Entities
 
-<https://youtu.be/SryQxUeChMc?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s&t=101>
+1. In the ContosoPizza create a folder called **Models**
+2. Inside the Models folder, create a class (entity) called **Product.cs**, as shown in the code below:
+
+```
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ContosoPizza.Models
+{
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = null;
+
+        [Column(TypeName = "decimal(6, 2)")]
+        public decimal Price { get; set; }
+    }    
+}
+```
+
+3. Create a entity class called **Order**
+
+```
+namespace ContosoPizza.Models
+{
+    public class Order
+    {
+        public int Id { get; set; }
+        public DateTime OrderPlaced { get; set; }
+        public DateTime? OrderFulfilled { get; set; }
+        public int CustomerId { get; set; }
+        public Customer Customer { get; set; } = null;
+        public ICollection<OrderDetail> OrderDetails { get; set; }
+
+    }
+}
+```
+
+4. Create a entity class called **OrderDetail**
+
+```
+
+```
+
+5. Now create a entity class called **Customer**
+
+```
+namespace ContosoPizza.Models
+{
+    public class Custom
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; } = null;
+        public string LastName { get; set; } = null;
+        public string? Address { get; set; }
+        public string? Phone { get; set; }
+        public ICollection<Order> Orders { get; set; } = null;
+
+    }
+}
+```
+
+
+
