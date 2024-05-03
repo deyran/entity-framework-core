@@ -108,5 +108,41 @@ namespace ContosoPizza.Models
 }
 ```
 
+## Database Context class
 
+1. In the ContosoPizza create a folder called **Data**
+2. Inside the folder Data, create a class called **ContosoPizzaContext** as shown in the code below:
+
+```
+using ContosoPizza.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace ContosoPizza.Data
+{
+    public class ContosoPizzaContext : DbContext
+    {
+        public DbSet<Customer> Customers { get; set; } = null;
+        public DbSet<Order> Orders { get; set; } = null;
+        public DbSet<OrderDetail> OrderDetails { get; set; } = null;
+        public DbSet<Product> Products { get; set; } = null;
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;");
+        }
+    }
+}
+```
+
+**TIPS** 
+
+1. ContosoPizzaContext is derived from DBContext, which in turn, DBContext represents a session within the Database.
+2. The code below show a model of a string connection using SQL Server Express LocalDB
+
+```
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;
+```
+
+3. AAA
+https://youtu.be/SryQxUeChMc?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s&t=433
 
