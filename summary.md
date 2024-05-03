@@ -135,6 +135,7 @@ namespace ContosoPizza.Data
 ```
 
 **TIPS** 
+
 * ContosoPizzaContext is derived from DBContext, which in turn, DBContext represents a session within the Database.
 * The code below show a model of a string connection using SQL Server Express LocalDB
 
