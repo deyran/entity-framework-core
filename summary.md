@@ -135,13 +135,12 @@ namespace ContosoPizza.Data
 ```
 
 **TIPS** 
+* ContosoPizzaContext is derived from DBContext, which in turn, DBContext represents a session within the Database.
+* The code below show a model of a string connection using SQL Server Express LocalDB
 
-    1. ContosoPizzaContext is derived from DBContext, which in turn, DBContext represents a session within the Database.
-    2. The code below show a model of a string connection using SQL Server Express LocalDB
-
-    ```
-    Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;
-    ```
+```
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;
+```
 
 3. AAA
 https://youtu.be/SryQxUeChMc?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s&t=433
