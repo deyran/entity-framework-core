@@ -7,8 +7,18 @@ public class Program
     {
         using ContosoPizzaContext context = new ContosoPizzaContext();
 
+        var veggieSpecial = context.Products
+                                .Where(p => p.Name == "Veggie Special Pizza")
+                                .FirstOrDefault();
+
+        if (veggieSpecial is Product)
+        {
+            veggieSpecial.Price = 5.99M;
+        }
+        context.SaveChanges();
+
         var products = context.Products
-                        .Where(p => p.Price > 10.00M)
+                        .Where(p => p.Price < 10.00M)
                         .OrderBy(p => p.Name);
 
         foreach (var p in products)

@@ -206,3 +206,8 @@ foreach (var p in products)
     Console.WriteLine(new string('-', 20));
 }
 ```
+
+3. Updating the entity
+
+```
+```
