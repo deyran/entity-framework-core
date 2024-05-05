@@ -1,9 +1,26 @@
-﻿namespace ContosoPizza;
+﻿using ContosoPizza.Data;
+using ContosoPizza.Models;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        using ContosoPizzaContext context = new ContosoPizzaContext();
+
+        Product veggieSpecial = new Product()
+        {
+            Name = "Veggie Special Pizza",
+            Price = 12.99M
+        };
+        context.Products.Add(veggieSpecial);
+
+        Product deluxeMeat = new Product()
+        {
+            Name = "Deluxe Meat Pizza",
+            Price = 9.9M
+        };
+        context.Products.Add(deluxeMeat);
+
+        context.SaveChanges();
     }
 }

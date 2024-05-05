@@ -160,3 +160,31 @@ dotnet ef migrations add InitialCreate
 ```
 dotnet ef database update
 ```
+
+## Time to practice
+
+1. Add products to Products table
+```
+using ContosoPizza.Data;
+using ContosoPizza.Models;
+
+...
+
+using ContosoPizzaContext context = new ContosoPizzaContext();
+
+Product veggieSpecial = new Product()
+{
+    Name = "Veggie Special Pizza",
+    Price = 12.99M
+};
+context.Products.Add(veggieSpecial);
+
+Product deluxeMeat = new Product()
+{
+    Name = "Deluxe Meat Pizza",
+    Price = 9.9M
+};
+context.Products.Add(deluxeMeat);
+
+context.SaveChanges();
+```
