@@ -7,20 +7,16 @@ public class Program
     {
         using ContosoPizzaContext context = new ContosoPizzaContext();
 
-        Product veggieSpecial = new Product()
-        {
-            Name = "Veggie Special Pizza",
-            Price = 12.99M
-        };
-        context.Products.Add(veggieSpecial);
+        var products = context.Products
+                        .Where(p => p.Price > 10.00M)
+                        .OrderBy(p => p.Name);
 
-        Product deluxeMeat = new Product()
+        foreach (var p in products)
         {
-            Name = "Deluxe Meat Pizza",
-            Price = 9.9M
-        };
-        context.Products.Add(deluxeMeat);
-
-        context.SaveChanges();
+            Console.WriteLine($"id.....: {p.Id}");
+            Console.WriteLine($"Name...: {p.Name}");
+            Console.WriteLine($"Price..: {p.Price}");
+            Console.WriteLine(new string('-', 20));
+        }
     }
 }
