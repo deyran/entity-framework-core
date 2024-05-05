@@ -143,6 +143,13 @@ namespace ContosoPizza.Data
 Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;
 ```
 
-3. AAA
-https://youtu.be/SryQxUeChMc?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s&t=433
+## The EF Core migrations feature
 
+Provides a way to incrementally update the database schema to keep it in sync with the application's data model while preserving existing data in the database.
+
+```
+dotnet tool install --global dotnet-ef
+
+dotnet ef migrations add InitialCreate
+
+```
