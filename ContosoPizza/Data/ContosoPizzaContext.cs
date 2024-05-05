@@ -16,7 +16,7 @@ namespace ContosoPizza.Data
             //localhost\SQLEXPRESS
             //(localdb)\MSSQLLocalDB
 
-            optionsBuilder.UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;");
+            optionsBuilder.UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;TrustServerCertificate=True");
         }
     }
 }

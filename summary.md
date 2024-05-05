@@ -147,9 +147,16 @@ Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ContosoPizza-Part1;Integrated
 
 Provides a way to incrementally update the database schema to keep it in sync with the application's data model while preserving existing data in the database.
 
+1. You need to create migrations
+
 ```
 dotnet tool install --global dotnet-ef
 
 dotnet ef migrations add InitialCreate
+```
 
+2. Now, update the database
+
+```
+dotnet ef database update
 ```
