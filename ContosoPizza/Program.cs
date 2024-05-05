@@ -13,7 +13,7 @@ public class Program
 
         if (veggieSpecial is Product)
         {
-            veggieSpecial.Price = 5.99M;
+            context.Remove(veggieSpecial);
         }
         context.SaveChanges();
 
