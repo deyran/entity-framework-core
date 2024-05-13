@@ -4106,23 +4106,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DEYVIDRANNYERE\\.nuget\\packages\\": {},
+    "C:\\Users\\Windows\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj",
+      "projectUniqueName": "C:\\github-projects\\entity-framework-core\\entity-framework-core-1_5\\ContosoPizza\\ContosoPizza.csproj",
       "projectName": "ContosoPizza",
-      "projectPath": "C:\\git-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj",
-      "packagesPath": "C:\\Users\\DEYVIDRANNYERE\\.nuget\\packages\\",
-      "outputPath": "C:\\git-projects\\entity-framework-core\\ContosoPizza\\obj\\",
+      "projectPath": "C:\\github-projects\\entity-framework-core\\entity-framework-core-1_5\\ContosoPizza\\ContosoPizza.csproj",
+      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+      "outputPath": "C:\\github-projects\\entity-framework-core\\entity-framework-core-1_5\\ContosoPizza\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DEYVIDRANNYERE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4188,7 +4188,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
