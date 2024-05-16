@@ -1,4 +1,5 @@
-﻿using ContosoPizza.Data;
+﻿using System.Net;
+using ContosoPizza.Data;
 using ContosoPizza.Models;
 
 public class Program
@@ -30,23 +31,37 @@ public class Program
         // }
 
 
+        // Adding products to the Product table ------------------------------------
+
+        // using ContosoPizzaContext context = new ContosoPizzaContext();
+        // Product veggieSpecial = new Product()
+        // {
+        //     Name = "Veggie Special Pizza",
+        //     Price = 12.99M
+        // };
+        // context.Products.Add(veggieSpecial);
+
+        // Product deluxeMeat = new Product()
+        // {
+        //     Name = "Deluxe Meat Pizza",
+        //     Price = 9.9M
+        // };
+        // context.Products.Add(deluxeMeat);
+
+        // context.SaveChanges();
+
+        // Adding customers to the Customer table ------------------------------------
+
         using ContosoPizzaContext context = new ContosoPizzaContext();
 
-        Product veggieSpecial = new Product()
+        var meusClientes = new List<Customer>
         {
-            Name = "Veggie Special Pizza",
-            Price = 12.99M
+            new Customer { FirstName = "Deyvid Rannyere", LastName = "Moraes", Email = "deyran@gmail.com" },
+            new Customer { FirstName = "Márcia", LastName = "Moraes", Email = "marciamoraes80@hotmail.com" },
+            new Customer { FirstName = "Lara Hellena", LastName = "Moraes", Email = "larahellena17@gmail.com" }
         };
-        context.Products.Add(veggieSpecial);
 
-        Product deluxeMeat = new Product()
-        {
-            Name = "Deluxe Meat Pizza",
-            Price = 9.9M
-        };
-        context.Products.Add(deluxeMeat);
-
+        context.Customers.AddRange(meusClientes);
         context.SaveChanges();
-
     }
 }
