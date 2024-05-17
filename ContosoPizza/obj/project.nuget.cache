@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ryx7DjPNr2B2R5mzQAdL4penSjbQr4nUKauEX0sQUSilOjfB+IgantTWxlxP3GmERh+EZxMhzVu+jm67Ajzyxg==",
+  "dgSpecHash": "c/T3HOhCKwrQmwJ0arEyOh53VtW2JPjPFKzb+QMGZ6YJaU8X79bobMV8zk7DRTOxK+PDP+RO34Iu6Sqdc3DgSw==",
   "success": true,
-  "projectFilePath": "c:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj",
+  "projectFilePath": "C:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

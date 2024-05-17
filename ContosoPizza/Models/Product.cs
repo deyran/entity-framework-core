@@ -1,14 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
 
-using System.ComponentModel.DataAnnotations.Schema;
+namespace ContosoPizza.Models;
 
-namespace ContosoPizza.Models
+public partial class Product
 {
-    public class Product
-    {
-        public int Id { get; set; }
-        public string Name { get; set; } = null;
+    public int Id { get; set; }
 
-        [Column(TypeName = "decimal(6, 2)")]
-        public decimal Price { get; set; }
-    }    
+    public string Name { get; set; } = null!;
+
+    public decimal Price { get; set; }
+
+    public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 }

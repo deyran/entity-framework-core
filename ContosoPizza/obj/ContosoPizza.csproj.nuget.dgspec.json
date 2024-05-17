@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj": {}
+    "C:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj": {}
   },
   "projects": {
-    "c:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj": {
+    "C:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj",
+        "projectUniqueName": "C:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj",
         "projectName": "ContosoPizza",
-        "projectPath": "c:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj",
+        "projectPath": "C:\\github-projects\\entity-framework-core\\ContosoPizza\\ContosoPizza.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "c:\\github-projects\\entity-framework-core\\ContosoPizza\\obj\\",
+        "outputPath": "C:\\github-projects\\entity-framework-core\\ContosoPizza\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
