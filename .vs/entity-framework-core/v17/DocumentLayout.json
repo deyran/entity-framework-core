@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{EC1F7F9E-9D27-4125-9D3D-B9092DA09E05}|ContosoPizza\\ContosoPizza.csproj|c:\\github-projects\\entity-framework-core\\contosopizza\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC1F7F9E-9D27-4125-9D3D-B9092DA09E05}|ContosoPizza\\ContosoPizza.csproj|solutionrelative:contosopizza\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\github-projects\\entity-framework-core\\ContosoPizza\\Data\\ContosoPizzaPart1Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ContosoPizza\\Data\\ContosoPizzaPart1Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,9 +28,22 @@
               "RelativeDocumentMoniker": "ContosoPizza\\Models\\Product.cs",
               "ToolTip": "C:\\github-projects\\entity-framework-core\\ContosoPizza\\Models\\Product.cs",
               "RelativeToolTip": "ContosoPizza\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowBIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T18:30:15.588Z",
+              "WhenOpened": "2024-05-28T14:40:28.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContosoPizzaPart1Context.cs",
+              "DocumentMoniker": "C:\\github-projects\\entity-framework-core\\ContosoPizza\\Data\\ContosoPizzaPart1Context.cs",
+              "RelativeDocumentMoniker": "ContosoPizza\\Data\\ContosoPizzaPart1Context.cs",
+              "ToolTip": "C:\\github-projects\\entity-framework-core\\ContosoPizza\\Data\\ContosoPizzaPart1Context.cs",
+              "RelativeToolTip": "ContosoPizza\\Data\\ContosoPizzaPart1Context.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T14:39:54.868Z",
               "EditorCaption": ""
             }
           ]

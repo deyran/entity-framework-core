@@ -17,6 +17,6 @@ dotnet ef dbcontext scaffold "Data Source=Financeiro01\MSSQLSERVER01;Initial Cat
 * **--context-dir Data**: This parameter creates the folder where the DbContext will be generated. In that case, the DbContext class will be generated in the **Data** folder
 * **--output-dir Models**: This parameter indicates where the entity classes will be generated. In this case, the entity classes will be generated in the **Models** folder
 
+3. To automatically create entity classes with DataAnnotation, you must use **Package Manager Console** in Visual Studio. The code below shows how to create entity classes with DataAnnotation
 
-
-3. AAA
+Scaffold-DbContext "Data Source=Financeiro01\MSSQLSERVER01;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models -DataAnnotation
