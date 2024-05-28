@@ -19,4 +19,6 @@ dotnet ef dbcontext scaffold "Data Source=Financeiro01\MSSQLSERVER01;Initial Cat
 
 3. To automatically create entity classes with DataAnnotation, you must use **Package Manager Console** in Visual Studio. The code below shows how to create entity classes with DataAnnotation
 
+```
 Scaffold-DbContext "Data Source=Financeiro01\MSSQLSERVER01;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models -DataAnnotation
+```
