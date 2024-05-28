@@ -1,15 +1,14 @@
 ﻿using System.Net;
-using ContosoPizza.Data;
-using ContosoPizza.Models;
+//using ContosoPizza.Data;
+//using ContosoPizza.Models;
 
 public class Program
 {
     private static void Main(string[] args)
     {
-        using ContosoPizzaContext context = new ContosoPizzaContext();
+      /*  using ContosoPizzaContext context = new ContosoPizzaContext();
 
-        var products = context.Products
-                        .OrderBy(p => p.Name);
+        var products = context.Products.OrderBy(p => p.Name);
 
         foreach (var p in products)
         {
@@ -17,7 +16,7 @@ public class Program
             Console.WriteLine($"Name...: {p.Name}");
             Console.WriteLine($"Price..: {p.Price}");
             Console.WriteLine(new string('-', 20));
-        }
+        }*/
 
 
         // Adding products to the Product table ------------------------------------
