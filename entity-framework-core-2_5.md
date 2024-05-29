@@ -22,3 +22,5 @@ dotnet ef dbcontext scaffold "Data Source=Financeiro01\MSSQLSERVER01;Initial Cat
 ```
 Scaffold-DbContext "Data Source=Financeiro01\MSSQLSERVER01;Initial Catalog=ContosoPizza-Part1;Integrated Security=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models -DataAnnotation
 ```
+
+## What do we do when the database schema changes?
