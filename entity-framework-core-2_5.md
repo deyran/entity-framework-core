@@ -24,3 +24,11 @@ Scaffold-DbContext "Data Source=Financeiro01\MSSQLSERVER01;Initial Catalog=Conto
 ```
 
 ## What do we do when the database schema changes?
+
+### There are two strategies:
+
+1. **Manual approach**
+
+This approach requires you to manually edit your entity model to keep it sync with the database schema. The generated DbContext and model classes can be though of as starting point for ongoing development similar to scaffolded razor pages in an ASP.NET Core Web App
+
+2. XXX
