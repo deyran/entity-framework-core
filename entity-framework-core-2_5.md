@@ -31,4 +31,6 @@ Scaffold-DbContext "Data Source=Financeiro01\MSSQLSERVER01;Initial Catalog=Conto
 
 This approach requires you to manually edit your entity model to keep it sync with the database schema. The generated DbContext and model classes can be though of as starting point for ongoing development similar to scaffolded razor pages in an ASP.NET Core Web App
 
-2. XXX
+2. **Rescaffolding the entity model whenever the database schema changes**
+
+Using this approach, it's important to use **partial classes** or **extension methods** to keep business logic separate from the scaffolded entities. This ensures that business logic doesn't get overwritten if you rescaffold the entities
