@@ -39,6 +39,7 @@ namespace ContatosConsole.Models
 }
 ```
 
-4. A
-5. A
-6. A
+https://www.c-sharpcorner.com/article/get-started-with-entity-framework-core-using-sqlite/
+
+
+
