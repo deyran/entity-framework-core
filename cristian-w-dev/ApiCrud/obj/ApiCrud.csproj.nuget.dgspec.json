@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github-projects\\entity-framework-core\\ef-core - sqlite\\ContatosConsole\\ContatosConsole.csproj": {}
+    "C:\\github-projects\\entity-framework-core\\cristian-w-dev\\ApiCrud\\ApiCrud.csproj": {}
   },
   "projects": {
-    "C:\\github-projects\\entity-framework-core\\ef-core - sqlite\\ContatosConsole\\ContatosConsole.csproj": {
+    "C:\\github-projects\\entity-framework-core\\cristian-w-dev\\ApiCrud\\ApiCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github-projects\\entity-framework-core\\ef-core - sqlite\\ContatosConsole\\ContatosConsole.csproj",
-        "projectName": "ContatosConsole",
-        "projectPath": "C:\\github-projects\\entity-framework-core\\ef-core - sqlite\\ContatosConsole\\ContatosConsole.csproj",
+        "projectUniqueName": "C:\\github-projects\\entity-framework-core\\cristian-w-dev\\ApiCrud\\ApiCrud.csproj",
+        "projectName": "ApiCrud",
+        "projectPath": "C:\\github-projects\\entity-framework-core\\cristian-w-dev\\ApiCrud\\ApiCrud.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\github-projects\\entity-framework-core\\ef-core - sqlite\\ContatosConsole\\obj\\",
+        "outputPath": "C:\\github-projects\\entity-framework-core\\cristian-w-dev\\ApiCrud\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,29 +50,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.2.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
-            "SQLitePCLRaw.bundle_green": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[2.1.8, )"
-            },
-            "SQLitePCLRaw.core": {
-              "target": "Package",
-              "version": "[2.1.8, )"
-            },
-            "SQLitePCLRaw.provider.dynamic_cdecl": {
-              "target": "Package",
-              "version": "[2.1.8, )"
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.9.172, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -83,11 +71,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
